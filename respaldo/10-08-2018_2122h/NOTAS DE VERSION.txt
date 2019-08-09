@@ -1,0 +1,18 @@
+CORREGIDO PROBLEMA CON LA APPGUI
+
+ahora se reciben los datos en la directamente en la clase de la funcion cambiar nombres, 
+adicionalmente el llamado a appgui se hace de manera recursiva por cada archivo se integro la appgui dentro del archivo funtions.py
+
+
+FALTA POR CORREGIR:
+
+-buscar la manera de ejecutar el cambio de nombre de forma modal con el objetivo de que el script no sig su ejecucion mientras se 
+	estan cambiando los nombres ya que esto ocaciona error de permiso de escritura de archivos cuando la funcion convertir a pdf se activa y el 
+	script aun esta o cambiando nombres o eliminando la capa alpha de las fotos.
+
+-corregir la funcion mover que aun tiene el error de combinar todos los archivos en uno
+
+-MUY IMPORTANTE implementar las validaciones de los campos en la appgui, cambiar todo a mayuscula, limitar la entrada de solo numeros 
+	en el social y aparte permitir solo el ingreso de 4 numeros, finalmente traerse de la funcion cambio de nombre el apartado de cambio de
+	espacio vacio " " por piso"_"
+ 

@@ -1,0 +1,8 @@
+INSTALAR PIP y configurar 
+
+https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+
+python -m pip install Pillow
+python -m pip install img2pdf
+pip install Wand
+install manualmente : https://legacy.imagemagick.org/script/binary-releases.php#windows

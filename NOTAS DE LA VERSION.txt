@@ -1,0 +1,6 @@
++ agregada funcion if que permite tener comentarios en el archivo data.conf descartando las lienas que comiencen con #
++ agregada la descripcion de cada variable en el archivo data.conf
++ corregido el fallo en la funcion mover archivo funcionando con fecha y sin 
++ en cuanto a la funcion mover: comprovado todos los if referentes a la estructuta de nombres y su activacion o desactivacion en data.conf
+- queda pendiente en la funcion mover habilitar que python monte y desmonte el directorio en red o que utilice credenciales de usuario especiales parapermitir la escritura y visualizacion de dicha carpeta
+- verificar si el inst.CambiarNombrePDF(None, None) en el archivo funtions.py esta perjudicando en algo a las veriables que deberia de recibir la APPGUI

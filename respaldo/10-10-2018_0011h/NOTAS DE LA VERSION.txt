@@ -1,0 +1,4 @@
++ agregada funcion if que permite tener comentarios en el archivo data.conf descartando las lienas que comiencen con #
++ agregada la descripcion de cada variable en el archivo data.conf
++ corregido el fallo en la funcion mover archivo funcionando con fecha y sin 
+- queda pendiente probar si usa el nombre escrito en .conf en la funcion mover
